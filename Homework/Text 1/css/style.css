@@ -1,0 +1,51 @@
+body{
+    font-family: 'Bree Serif';
+    margin-left: 10px;
+}
+
+.container{
+    width: 560px;
+    background-image: url(../img/bg.jpg);
+}
+
+.row a{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.row a i{
+    width: 50px;
+    height: 50px;
+    border: 2px solid indigo;
+    line-height: 50px;
+    color: indigo;
+}
+
+.row a i:hover{
+    color: white;
+    background-color: indigo;
+    transition: 0.4s;
+}
+
+h3{
+    font-weight: 400;
+    display: inline;
+    margin-left: 20px;
+}
+
+p{
+    display: inline-block;
+    margin-left: 80px;
+    width: 400px;
+    margin-top: 0px;
+}
+
+h1, .container div{
+    margin-left: 40px;
+}
+
+h3, p{
+    position: relative;
+    top: -25px;
+}
