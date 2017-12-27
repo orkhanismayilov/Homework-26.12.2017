@@ -1,0 +1,29 @@
+body{
+    color: purple;
+}
+
+h1, h3{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.art{
+    background-image: url(../img/bg.jpg);
+    height: 300px;
+    width: 500px;
+}
+
+h1{
+    line-height: 100px;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 0;
+}
